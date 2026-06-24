@@ -20,8 +20,6 @@ Understand how exposed backup files can disclose sensitive source code, configur
 
 ## Tools Used
 
-* Burp Suite Community Edition
-* Burp Repeater
 * Web Browser
 
 ---
@@ -86,8 +84,6 @@ An attacker could leverage this information to understand the application's inte
 
 ---
 
-## 🎥 Full Walkthrough
-
-The following recording demonstrates the complete exploitation process, from discovering the exposed backup directory to retrieving the source code and identifying the hardcoded database credentials used to solve the lab.
+## 🎥 Short Walkthrough
 
 https://github.com/user-attachments/assets/595ce5f0-c311-4e00-9bef-959ca3ceee7d
