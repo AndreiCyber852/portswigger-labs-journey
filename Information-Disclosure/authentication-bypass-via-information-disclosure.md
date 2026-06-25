@@ -74,7 +74,7 @@ The application **incorrectly trusts** this header and treats the request as if 
 
 As a result, the administrator interface becomes accessible.
 
-<img width="942" height="452" alt="Administrator interface accessed after spoofing localhost" src="PASTE_IMAGE_3_HERE" />
+<img width="943" height="523" alt="image-63" src="https://github.com/user-attachments/assets/89942204-6fed-4a99-9745-0237a7ef1398" />
 
 ---
 
