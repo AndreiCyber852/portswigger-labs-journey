@@ -86,7 +86,8 @@ The request is processed successfully, completing the lab.
 
 <img width="942" height="452" alt="Deleting the user carlos" src="https://github.com/user-attachments/assets/f3b69ed6-2346-40ee-91c3-cf748fde12cd" />
 
-<img width="942" height="452" alt="Lab solved after deleting the user carlos" src="https://github.com/user-attachments/assets/bdf93131-dc8b-4d16-b462-098da0fc76ec" />
+<img width="950" height="452" alt="image-66" src="https://github.com/user-attachments/assets/6d5e62ce-fab7-454d-8c43-39ec6b83fb8f" />
+
 
 ---
 
