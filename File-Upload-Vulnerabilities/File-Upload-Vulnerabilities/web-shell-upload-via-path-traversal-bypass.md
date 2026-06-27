@@ -496,6 +496,17 @@ Successful exploitation allows an attacker to:
 - Upload additional malicious payloads.
 - Potentially obtain full control of the web server.
 
+## Mitigation
+
+To prevent this type of vulnerability, applications should:
+
+- Validate uploaded file types using an allowlist instead of relying solely on file extensions.
+- Store uploaded files outside the web root so they cannot be executed directly.
+- Rename uploaded files using random UUIDs or generated filenames to prevent path manipulation.
+- Disable execution of uploaded files by configuring the web server appropriately.
+- Validate and normalize filenames **after URL decoding** to detect encoded directory traversal sequences.
+- Reject any filename containing directory traversal characters such as `../` or their encoded equivalents.
+
 ## OWASP Mapping
 
 **OWASP Top 10 2021**
