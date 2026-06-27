@@ -218,7 +218,7 @@ As a result:
 /files/avatars/%2e%2e%2fshell.php
 ```
 
-returns **404 Not Found**, while
+returns **404 Not Found**
 
 ```
 /files/shell.php 
