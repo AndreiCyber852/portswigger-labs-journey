@@ -159,10 +159,6 @@ Receiving both the stock value and the username demonstrates that the applicatio
 
 ---
 
-## 5. Execution Flow
-
-```text
-
 ## Execution Flow
 
 ```text
@@ -187,7 +183,14 @@ Output returned to the browser
 
 ### Why does this work?
 
-The application...## What I Learned
+The application incorporates user-controlled input directly into an operating system command without properly validating or sanitizing it.
+
+Because the shell interprets the semicolon (`;`) as a command separator, it executes both the application's intended command and the attacker's injected `whoami` command.
+
+The output of the injected command is then returned in the HTTP response, confirming that the application is vulnerable to **OS Command Injection**.
+
+The output is returned in the HTTP response, confirming successful **OS Command Injection**.
+## What I Learned
 
 - Burp Repeater allows requests to be modified and resent.
 - `whoami` safely verifies command execution.
